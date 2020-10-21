@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { addToCart } from "../../redux/Shopping/shopping-actions";
 
 //git push main
+// updating on branch
 
 const SingleItem = ({ current, addToCart }) => {
   return (
