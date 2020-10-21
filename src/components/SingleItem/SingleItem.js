@@ -4,6 +4,8 @@ import styles from "./SingleItem.module.css";
 import { connect } from "react-redux";
 import { addToCart } from "../../redux/Shopping/shopping-actions";
 
+//git push main
+
 const SingleItem = ({ current, addToCart }) => {
   return (
     <div className={styles.singleItem}>
